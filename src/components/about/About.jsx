@@ -5,9 +5,13 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import axios from "axios";
+import { useContext } from "react";
+import NavContext from "../nav/NavContext";
+import { FaUniversity } from "react-icons/fa";
 
 export default function About() {
   const [totalProjects, setTotalProjects] = useState(0);
+  const { setActiveNav } = useContext(NavContext);
 
   useEffect(() => {
     async function getTotalProjects() {
@@ -25,9 +29,8 @@ export default function About() {
   return (
     <>
       <section id="about">
-        <h5>Get To Know</h5>
+        <h4>Get To Know</h4>
         <h2>About Me</h2>
-
         <div className="container about__container">
           <div className="about__me">
             <div className="about__me-image">
@@ -40,13 +43,13 @@ export default function About() {
               <article className="about__card">
                 <FaAward className="about__icon" />
                 <h5>Experience</h5>
-                <small>3+ Years Working</small>
+                <small>2+ Years Working</small>
               </article>
 
               <article className="about__card">
                 <FiUsers className="about__icon" />
                 <h5>Clients</h5>
-                <small>200+ Worldwide</small>
+                <small>Viet Nam</small>
               </article>
 
               <article className="about__card">
@@ -54,15 +57,26 @@ export default function About() {
                 <h5>Projects</h5>
                 <small>{totalProjects}+ Completed</small>
               </article>
+
+              <article className="about__card">
+                <FaUniversity className="about__icon" />
+                <h5>Education</h5>
+                <small>Bachelor Degree</small>
+              </article>
             </div>
 
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-              consequatur cupiditate laborum, suscipit dolorem voluptatibus vero
-              assumenda, harum quam voluptas veritatis corporis hic totam
-              dolorum quod est incidunt! Optio, nemo?
+            <p className="justified-text">
+              I'm Tien Dat, a software engineer based in Viet Nam. I have a
+              passion for software development and love to create for web and
+              backend development. I have been working as a software engineer
+              for 2+ years.
             </p>
-            <a href="#contact" className="btn btn-primary">
+
+            <a
+              href="#contact"
+              className="btn btn-primary"
+              onClick={() => setActiveNav("#contact")}
+            >
               Let's Talk
             </a>
           </div>

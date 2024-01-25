@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./nav.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
+import NavContext from "./NavContext";
 
 export default function Nav() {
-  const [activeNav, setActiveNav] = useState("#");
+  const { activeNav, setActiveNav } = useContext(NavContext);
+
   return (
     <>
       <nav>

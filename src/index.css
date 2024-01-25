@@ -65,7 +65,7 @@ section {
 }
 
 section > h2,
-section > h5 {
+section > h4 {
   text-align: center;
   color: var(--color-light);
 }

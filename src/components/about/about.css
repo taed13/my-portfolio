@@ -1,7 +1,8 @@
 .about__container {
   display: grid;
-  grid-template-columns: 35% 50%;
-  gap: 15%;
+  grid-template-columns: 30% 60%;
+  gap: 10%;
+  place-items: center;
 }
 
 .about__me {
@@ -31,7 +32,7 @@
 
 .about__cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
@@ -56,7 +57,7 @@
   margin-bottom: 1rem;
 }
 
-.about__card h5 {
+.about__card h4 {
   font-size: 0.95rem;
 }
 
@@ -68,6 +69,10 @@
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
+}
+
+.justified-text {
+  text-align: justify;
 }
 
 /* ======= MEDIA QUERIES (MEDIUM DEVICES) RESPONSIVE DESIGN ======= */
