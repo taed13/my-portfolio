@@ -60,7 +60,7 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 5rem;
   height: 100vh;
 }
 
@@ -132,8 +132,15 @@ img {
   .container {
     width: var(--container-width-md);
   }
+  section {
+    margin-top: 0;
+  }
 
   section > h2 {
     margin-bottom: 2rem;
+  }
+
+  section#about {
+    margin-bottom: 6rem;
   }
 }

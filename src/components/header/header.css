@@ -67,8 +67,19 @@ header {
 
 /* ======= MEDIA QUERIES (MEDIUM DEVICES) RESPONSIVE DESIGN ======= */
 @media screen and (max-width: 600px) {
-  .header {
+  header {
     height: 100vh;
+    padding-top: 0;
+  }
+  h4.text__image img {
+    height: 2.5rem;
+  }
+  .me {
+    width: 20rem;
+    left: calc(50% - 10rem);
+    height: 30rem;
+    margin-top: 2rem;
+    padding: 5rem 1.6rem 1.6rem 1.6rem;
   }
 
   .header__socials,
