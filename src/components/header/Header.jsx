@@ -14,7 +14,7 @@ export default function Header() {
           <h1>Bamboo Lee</h1>
           <h4 className="text-light text__image">
             <img
-              src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=10&pause=500&color=AA013FCC&center=true&random=false&height=15&lines=Back-end+Developer;Software+Engineer;Always+Learning+New+Things;A+Bookworm"
+              src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=10&pause=500&color=AA013FCC&center=true&random=false&height=15&lines=Back-end+Developer;Software+Engineer;Learning+New+Things;A+Bookworm"
               alt="Typing SVG"
             />
           </h4>
