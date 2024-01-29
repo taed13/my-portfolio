@@ -1,11 +1,15 @@
 import React from "react";
 import "./header.css";
 import CTA from "./CTA";
+import NavContext from "../nav/NavContext";
+import { useContext } from "react";
 import ME from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
 import { FaAngleDoubleDown } from "react-icons/fa";
 
 export default function Header() {
+  const { setActiveNav } = useContext(NavContext);
+
   return (
     <>
       <header>
@@ -25,7 +29,11 @@ export default function Header() {
             <img src={ME} alt="me" />
           </div>
 
-          <a href="#about" className="scroll__down">
+          <a
+            href="#about"
+            className="scroll__down"
+            onClick={() => setActiveNav("#about")}
+          >
             <FaAngleDoubleDown />
           </a>
         </div>
