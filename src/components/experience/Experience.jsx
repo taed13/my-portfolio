@@ -18,7 +18,7 @@ export default function Experience() {
                 <div>
                   {" "}
                   <h4>HTML5</h4>
-                  <small className="text-light">2+ Years Working</small>
+                  <small className="text-light">3+ Years Working</small>
                 </div>
               </article>
 
@@ -26,8 +26,8 @@ export default function Experience() {
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   {" "}
-                  <h4>HTML5</h4>
-                  <small className="text-light">2+ Years Working</small>
+                  <h4>CSS</h4>
+                  <small className="text-light">3+ Years Working</small>
                 </div>
               </article>
 
@@ -35,8 +35,8 @@ export default function Experience() {
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   {" "}
-                  <h4>HTML5</h4>
-                  <small className="text-light">2+ Years Working</small>
+                  <h4>Javascript</h4>
+                  <small className="text-light">3+ Years Working</small>
                 </div>
               </article>
 
@@ -44,8 +44,8 @@ export default function Experience() {
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   {" "}
-                  <h4>HTML5</h4>
-                  <small className="text-light">2+ Years Working</small>
+                  <h4>ReactJS</h4>
+                  <small className="text-light">2+ Years Learning</small>
                 </div>
               </article>
 
@@ -53,8 +53,8 @@ export default function Experience() {
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   {" "}
-                  <h4>HTML5</h4>
-                  <small className="text-light">2+ Years Working</small>
+                  <h4>Bootstrap CSS</h4>
+                  <small className="text-light">3+ Years Working</small>
                 </div>
               </article>
 
@@ -62,8 +62,8 @@ export default function Experience() {
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   {" "}
-                  <h4>HTML5</h4>
-                  <small className="text-light">2+ Years Working</small>
+                  <h4>Tailwind CSS</h4>
+                  <small className="text-light">1+ Years Working</small>
                 </div>
               </article>
             </div>
@@ -77,7 +77,7 @@ export default function Experience() {
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   {" "}
-                  <h4>HTML5</h4>
+                  <h4>NodeJS</h4>
                   <small className="text-light">2+ Years Working</small>
                 </div>
               </article>
@@ -86,7 +86,7 @@ export default function Experience() {
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   {" "}
-                  <h4>HTML5</h4>
+                  <h4>Python</h4>
                   <small className="text-light">2+ Years Working</small>
                 </div>
               </article>
@@ -95,7 +95,16 @@ export default function Experience() {
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   {" "}
-                  <h4>HTML5</h4>
+                  <h4>Databases</h4>
+                  <small className="text-light">4+ Years Working</small>
+                </div>
+              </article>
+
+              <article className="experience__details">
+                <BsPatchCheckFill className="experience__details-icon" />
+                <div>
+                  {" "}
+                  <h4>APIs</h4>
                   <small className="text-light">2+ Years Working</small>
                 </div>
               </article>
@@ -104,8 +113,8 @@ export default function Experience() {
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   {" "}
-                  <h4>HTML5</h4>
-                  <small className="text-light">2+ Years Working</small>
+                  <h4>Authentication - Authorization</h4>
+                  <small className="text-light">3+ Years Working</small>
                 </div>
               </article>
 
@@ -113,16 +122,7 @@ export default function Experience() {
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   {" "}
-                  <h4>HTML5</h4>
-                  <small className="text-light">2+ Years Working</small>
-                </div>
-              </article>
-
-              <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  {" "}
-                  <h4>HTML5</h4>
+                  <h4>Security Best Practices</h4>
                   <small className="text-light">2+ Years Working</small>
                 </div>
               </article>

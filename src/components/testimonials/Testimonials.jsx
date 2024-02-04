@@ -10,7 +10,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 export default function Testimonials() {
-  const data = [{}];
   return (
     <>
       <section id="testimonials">

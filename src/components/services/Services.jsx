@@ -1,6 +1,11 @@
 import React from "react";
 import "./services.css";
 import { BiCheck } from "react-icons/bi";
+import {
+  dataWeb_Development,
+  dataUI_UX_Design,
+  dataBackend_Development,
+} from "../../data/Services";
 
 export default function Services() {
   return (
@@ -14,32 +19,13 @@ export default function Services() {
             <div className="service__head">
               <h3>UI/UX Design</h3>
             </div>
-
             <ul className="service__list">
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </li>
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </li>
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </li>
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </li>
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </li>
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </li>
+              {dataUI_UX_Design.map((item, index) => (
+                <li key={index}>
+                  <BiCheck className="service__list-icon" />
+                  <p>{item}</p>
+                </li>
+              ))}
             </ul>
           </article>
           {/* END OF UI/UX */}
@@ -50,30 +36,12 @@ export default function Services() {
             </div>
 
             <ul className="service__list">
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </li>
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </li>
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </li>
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </li>
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </li>
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </li>
+              {dataWeb_Development.map((item, index) => (
+                <li key={index}>
+                  <BiCheck className="service__list-icon" />
+                  <p>{item}</p>
+                </li>
+              ))}
             </ul>
           </article>
 
@@ -85,30 +53,12 @@ export default function Services() {
             </div>
 
             <ul className="service__list">
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </li>
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </li>
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </li>
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </li>
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </li>
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </li>
+              {dataBackend_Development.map((item, index) => (
+                <li key={index}>
+                  <BiCheck className="service__list-icon" />
+                  <p>{item}</p>
+                </li>
+              ))}
             </ul>
           </article>
 

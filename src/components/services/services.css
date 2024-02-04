@@ -37,17 +37,28 @@
 
 .service__list li {
   display: flex;
-  gap: 1rem;
+  flex-direction: row;
+  gap: 1.5rem;
   margin-bottom: 0.8rem;
 }
 
 .service__list-icon {
   color: var(--color-primary);
   margin-top: 2px;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .service__list p {
   font-size: 0.9rem;
+}
+
+.service__list li .service__list-icon {
+  flex: 1;
+}
+
+.service__list li p {
+  flex: 11;
 }
 
 /* ======= MEDIA QUERIES (MEDIUM DEVICES) RESPONSIVE DESIGN ======= */
